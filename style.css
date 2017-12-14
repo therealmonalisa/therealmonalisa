@@ -1,0 +1,309 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Pinyon+Script')
+
+
+body{margin-left: 15px;
+margin-right: 20px;
+max-width: 100%;
+  overflow-x: hidden;}
+
+/*SIDEBAR*/
+ .sidenav {
+ 	width: 160px;
+    position: absolute;
+    background: #eee;
+    padding: 5px;
+    height:100%;
+     }
+
+ .sidenav ul 
+ {width: 130px;
+ 	list-style-type: none;
+ 	padding-left: 10px;
+ 	text-align: center;
+ }
+
+.sidenav ul li a
+{margin-bottom: 5px;
+padding-left-right:auto;
+padding-top: 10px;
+padding-bottom: 10px;
+border:1px;
+border-style: solid;
+border-color: black;
+border-radius: 10px;
+display: block;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+.sidenav h3 
+{text-align: center;}
+
+.Test {font-size: 10px;
+text-align: center;}
+
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+  padding-left
+}
+
+/*END SIDEBAR*/
+
+/*EVERYPAGE CONTAINERS AND HEADER*/
+.main {margin-left: 200px;}
+
+
+.title{color:red;
+text-align:center;
+padding: 20px;
+border-style: solid;
+background-image: url("https://static.independent.co.uk/s3fs-public/styles/article_small/public/thumbnails/image/2016/03/10/18/mona-lisa.jpg")
+;
+width: 100%;
+font-family: 'Pinyon Script', cursive;
+font-size: 25px;
+}
+
+#shrine-header{
+width:100%;
+text-align: center;
+}
+
+#shrine-description {text-align: center;}
+
+
+/*BEGIN HOMEPAGE*/
+.mona-grid
+{
+margin-left: 80px;
+max-width: 100%;
+  overflow-x: hidden;
+}
+
+.image_off,#mona {
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+
+.image_on,#mona
+{
+	width:200px;
+	height:200px;
+	float: left;
+}
+
+.image_off, #mona:hover .image_on{
+   display:none
+}
+.image_on, #mona:hover .image_off{
+   display:block
+}
+
+
+#home {width:50%;
+align-items: center;}
+/* END HOMEPAGE*/
+
+
+
+/*BEGIN BOOKS*/
+#section-title {
+text-align:center;
+font-size: 30px;
+font-family: 'Pinyon Script', cursive;
+padding: 5px;
+border-bottom-style: solid;
+border-width: 1px;
+}
+
+
+#books-pic {
+height:300px;
+width:auto;
+float:left;
+padding-bottom: 10px;
+padding-right: 20px;
+clear: left;}
+
+.books-desc {
+font-size: 14px;
+width:900px;
+height:300px;
+padding-top: 10px;
+margin-left: 50px;
+padding-bottom: 10px;
+margin-bottom: 10px;
+}
+
+.books-whole{border-color: black;
+border-style:solid;
+border: 5px #157EC6;
+padding: 10px;
+}
+
+.about-body{text-align: center;
+}
+/*END OF BOOKS*/
+
+
+
+/*NEWSLETTER*/
+form {
+    border: 4px solid #f1f1f1;
+    width: 1000px;
+    margin-left: 190px;
+}
+
+.newsletter-form {
+    padding: 20px;
+    background-color: #f1f1f1;
+    width:100%;
+    text-align: center;
+
+}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family: Times New Roman;
+    font-size: 15px;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+    margin-top: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+    background-color: red;
+    color: white;
+    border: none;
+    width: 25%;
+    font-size: 20px;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+/*END NEWSLETTER*/
+
+
+/*APPAREL*/
+.apparel-whole
+{margin-top: 10px;}
+
+
+.apparel-description
+{text-align: center;}
+
+.apparel-container{
+    position: relative;
+    width: 200px;
+    height:200px;
+    float: left;
+    padding: 15px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    display: block;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.apparel-container:hover .image {
+  opacity: 0.3;
+}
+
+.apparel-container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: white;
+  border-radius: 5px; 
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+  display: block;
+}
+/*END APPAREL*/
+
+
+
+/*CUSTOM*/
+.hero-image {
+	background-image:url("https://sc01.alicdn.com/kf/HTB1cQOBHXXXXXbwaXXXq6xXFXXXz/222440048/HTB1cQOBHXXXXXbwaXXXq6xXFXXXz.jpg");
+	height:600px;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	
+}
+
+.hero-text {text-align: center;
+position: sticky;
+top: 50%
+left:50%
+transform:translate(-50%, -50%);
+color: red;
+height: auto;}
+
+.hero-text button {
+	border: solid;
+	border-color: red;
+	outline: 0;
+	display: inline-block;
+	padding:10px 25px;
+	background-color: white;
+	text-align: center;
+	cursor: pointer;
+}
+
+.hero-text button:hover {background-color: #555;
+color: white;}
+#custom-header {text-align: center;}
+
+
